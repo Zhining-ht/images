@@ -1,23 +1,26 @@
-html, body, *{
+html,
+body,
+* {
     margin: 0;
     padding: 0;
 }
 
-ul li{
+ul li {
     list-style-type: none;
-
 }
 
+
 /* Header */
-header{
+
+header {
     width: 100%;
     height: 275px;
     padding: 0;
-    background-color:seagreen;
+    background-color: seagreen;
     position: relative;
 }
 
-header img#knowwheregraph-icon{
+header img#knowwheregraph-icon {
     float: left;
     width: 153px;
     height: 59px;
@@ -25,22 +28,22 @@ header img#knowwheregraph-icon{
     margin-left: 41px;
 }
 
-header div#direct_relief_container{
+header div#direct_relief_container {
     margin-top: 44px;
     margin-left: 225px;
 }
 
-header div#direct_relief_container{
+header div#direct_relief_container {
     float: left;
 }
 
-header div.nav-path{
+header div.nav-path {
     position: absolute;
     top: 144px;
     left: 41px;
 }
 
-header div.nav-path span{
+header div.nav-path span {
     color: #FFFFFF;
     opacity: 0.5;
     font-family: sans-serif;
@@ -50,13 +53,13 @@ header div.nav-path span{
     line-height: 17px;
 }
 
-header div.display-expert{
+header div.display-expert {
     position: absolute;
     top: 180px;
     left: 41px;
 }
 
-header div.display-expert span#expert-name{
+header div.display-expert span#expert-name {
     color: #FFFFFF;
     font-family: sans-serif;
     font-size: 38px;
@@ -65,7 +68,7 @@ header div.display-expert span#expert-name{
     line-height: 46px;
 }
 
-ul.nav{
+ul.nav {
     height: 21px;
     float: right;
     margin-top: 47px;
@@ -76,7 +79,7 @@ ul li {
     padding-left: 33px;
 }
 
-ul li span.item{
+ul li span.item {
     color: #FFFFFF;
     font-family: sans-serif;
     font-size: 18px;
@@ -91,21 +94,21 @@ ul li img {
 }
 
 
-
 /* Main Content */
+
 main {
     width: 100%;
     height: 973px;
-    background-color:#CFCFD5;
-    position:relative;
+    background-color: #CFCFD5;
+    position: relative;
 }
 
-main div.container{
+main div.container {
     display: block;
     height: 881px;
     border-radius: 5px;
     padding: 0px;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     box-shadow: 0 10px 64px 0 rgba(0, 0, 0, 0.05);
     position: relative;
     top: 46px;
@@ -113,21 +116,21 @@ main div.container{
     right: 0px;
 }
 
-main div.container div#left-side{
+main div.container div#left-side {
     width: 300px;
     height: 881px;
     border-radius: 5px 0 0 5px;
     background-color: #F2F2F4;
 }
 
-main div#left-side ul{
+main div#left-side ul {
     /* background-color: red; */
     padding-right: 30px;
     position: relative;
     top: 68px;
 }
 
-main div#left-side li{
+main div#left-side li {
     color: #00021F;
     font-family: sans-serif;
     font-size: 22px;
@@ -138,7 +141,7 @@ main div#left-side li{
     padding-bottom: 30px;
 }
 
-main div.container div#right-side{
+main div.container div#right-side {
     position: absolute;
     top: 68px;
     left: 330px;
@@ -149,34 +152,34 @@ main div.container div#right-side{
     line-height: 26px;
 }
 
-div#right-side li{
+div#right-side li {
     padding-bottom: 30px;
 }
 
-main div.container div#right-side li a{
+main div.container div#right-side li a {
     color: #DF6C37;
     font-weight: 600;
 }
 
-div#left-side li#expertises-attr{
+div#left-side li#expertises-attr {
     padding-bottom: 212px;
 }
 
 
-
 /* Footer */
+
 footer {
     height: 354px;
     background-color: sandybrown;
     clear: left;
 }
 
-footer div.input-box{
+footer div.input-box {
     height: 98px;
     background-color: #DF6C37;
 }
 
-footer div.input-box span{
+footer div.input-box span {
     position: relative;
     top: 40px;
     left: 122.5px;
@@ -188,7 +191,7 @@ footer div.input-box span{
     line-height: 16px;
 }
 
-footer div div.form-group{
+footer div div.form-group {
     width: 524px;
     /* height: 52px; */
     float: right;
@@ -199,12 +202,12 @@ footer div div.form-group{
     border: 0px;
 }
 
-footer div div input{
+footer div div input {
     padding: 0px;
     height: 52px;
 }
 
-input.form-control::-webkit-input-placeholder{
+input.form-control::-webkit-input-placeholder {
     color: #00021F;
     opacity: 0.8;
     font-family: sans-serif;
@@ -213,6 +216,7 @@ input.form-control::-webkit-input-placeholder{
     letter-spacing: 0;
     line-height: 16px;
 }
+
 div.form-group button {
     width: 114px;
     height: 40px;
@@ -224,20 +228,19 @@ div.form-group button {
     position: absolute;
     right: 8px;
     top: 6px;
-    
 }
 
-footer div.footer div.icons-footer{
+footer div.footer div.icons-footer {
     width: 954px;
     height: 108px;
 }
 
-div.icons-footer img#kwg-icon-footer{
+div.icons-footer img#kwg-icon-footer {
     width: 199px;
     height: 77px;
 }
 
-div.icons-footer p{
+div.icons-footer p {
     width: 500px;
     height: 48px;
     color: #FFFFFF;
@@ -246,14 +249,13 @@ div.icons-footer p{
     font-weight: 500;
     letter-spacing: 0;
     line-height: 16px;
-
 }
 
-div.icons-footer img#nsf-icon{
+div.icons-footer img#nsf-icon {
     width: 108px;
     height: 83px;
 }
 
-
-
-
+div.icons-footer div#funded span {
+    color: #FFFFFF;
+}

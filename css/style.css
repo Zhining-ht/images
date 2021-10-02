@@ -1,0 +1,232 @@
+html, body, *{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+
+}
+
+/* Header */
+header{
+    width: 100%;
+    height: 275px;
+    padding: 0;
+    background-color:seagreen;
+    position: relative;
+}
+
+header img#knowwheregraph-icon{
+    float: left;
+    width: 153px;
+    height: 59px;
+    margin-top: 39px;
+    margin-left: 41px;
+}
+
+header div#direct_relief_container{
+    margin-top: 44px;
+    margin-left: 225px;
+}
+
+header div#direct_relief_container{
+    float: left;
+}
+
+header div.nav-path{
+    position: absolute;
+    top: 144px;
+    left: 41px;
+}
+
+header div.nav-path span{
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+header div.display-expert{
+    position: absolute;
+    top: 180px;
+    left: 41px;
+}
+
+header div.display-expert span#expert-name{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 46px;
+}
+
+ul.nav{
+    height: 21px;
+    float: right;
+    margin-top: 47px;
+    margin-right: 57px;
+}
+
+ul li {
+    padding-left: 33px;
+}
+
+ul li span.item{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: right;
+}
+
+ul li img {
+    padding-left: 6px;
+}
+
+
+
+/* Main Content */
+main {
+    width: 100%;
+    height: 973px;
+    background-color:#CFCFD5;
+    position:relative;
+}
+
+main div.container{
+    display: block;
+    height: 881px;
+    border-radius: 5px;
+    padding: 0px;
+    background-color:#FFFFFF;
+    box-shadow: 0 10px 64px 0 rgba(0, 0, 0, 0.05);
+    position: relative;
+    top: 46px;
+    left: 0px;
+    right: 0px;
+}
+
+main div.container div#left-side{
+    width: 300px;
+    height: 881px;
+    border-radius: 5px 0 0 5px;
+    background-color: #F2F2F4;
+}
+
+main div#left-side ul{
+    /* background-color: red; */
+    padding-right: 30px;
+    position: relative;
+    top: 68px;
+}
+
+main div#left-side li{
+    color: #00021F;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 26px;
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+main div.container div#right-side{
+    position: absolute;
+    top: 68px;
+    left: 330px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 26px;
+}
+
+div#right-side li{
+    padding-bottom: 30px;
+}
+
+main div.container div#right-side li a{
+    color: #DF6C37;
+    font-weight: 600;
+}
+
+div#left-side li#expertises-attr{
+    padding-bottom: 212px;
+}
+
+
+
+/* Footer */
+footer {
+    height: 354px;
+    background-color: sandybrown;
+    clear: left;
+}
+
+footer div.input-box{
+    height: 98px;
+    background-color: #DF6C37;
+}
+
+footer div.input-box span{
+    position: relative;
+    top: 40px;
+    left: 122.5px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+footer div div.form-group{
+    width: 524px;
+    /* height: 52px; */
+    float: right;
+    right: 123px;
+    position: relative;
+    top: 22px;
+    padding: 0px;
+    border: 0px;
+}
+
+footer div div input{
+    padding: 0px;
+    height: 52px;
+}
+
+input.form-control::-webkit-input-placeholder{
+    color: #00021F;
+    opacity: 0.8;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+div.form-group button {
+    width: 114px;
+    height: 40px;
+    background-color: #00021F;
+    color: #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
+    padding: 0px;
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    
+}
+
+
+
+

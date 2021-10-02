@@ -227,6 +227,33 @@ div.form-group button {
     
 }
 
+footer div.footer div.icons-footer{
+    width: 954px;
+    height: 108px;
+}
+
+div.icons-footer img#kwg-icon-footer{
+    width: 199px;
+    height: 77px;
+}
+
+div.icons-footer p{
+    width: 500px;
+    height: 48px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+
+}
+
+div.icons-footer img#nsf-icon{
+    width: 108px;
+    height: 83px;
+}
+
 
 
 

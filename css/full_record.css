@@ -17,6 +17,8 @@ header {
     height: 275px;
     padding: 0;
     background-color: #00021F;
+    background-image: url('../images/header-bg.png'); 
+    background-repeat: repeat-x;
     position: relative;
 }
 
@@ -57,7 +59,7 @@ header div.nav-path ul{
 
 div.nav-path .breadcrumb > li + li:before{
     color: #FFFFFF;
-    content: "/ ";
+    content: "\00a0/\00a0";
     opacity: 0.5;
 }
 
@@ -72,12 +74,8 @@ div.nav-path ul li a{
     line-height: 17px;
 }
 
-/* header div.nav-path span#explore-expert{
-    opacity: 1;
-} */
-
-
 div.nav-path ul#explore-expertise1 li a#curr_page{
+    color: #FFFFFF;
     opacity: 1;
 }
 
@@ -120,7 +118,8 @@ header div.search-dropdown-input{
     border-radius: 5px;
     background-color: #D7D7DC;
     position: absolute;
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
     margin-left: -117px;
     margin-top: 20px;
     padding: 20px;

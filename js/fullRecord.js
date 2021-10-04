@@ -1,24 +1,30 @@
 $(document).ready(function(){
-    var dropdownSearch = "hidden";
 
+    /**
+     * Search a spatial query click event
+     */
     $("a#navbarDropdown").click(function(){
-        if (dropdownSearch == "hidden"){
-            $("div.search-dropdown-input").css("visibility", "visible");
-            dropdownSearch = "visible";
-        } else if (dropdownSearch == "visible"){
-            $("div.search-dropdown-input").css("visibility", "hidden");
-            dropdownSearch = "hidden";
+        $("div.search-dropdown-input").toggle();
+    }); 
+    
+    $(document).click(function(e){
+        var elements = document.querySelector("a#navbarDropdown");
+        console.log($.contains(elements, e.target));
+        if (!$.contains(elements, e.target)){
+            var display = $("div.search-dropdown-input").css("display");
+            if (display){
+                if (display != "none"){
+                    $("div.search-dropdown-input").css("display", "none");
+                }
+            }
+            
         }
     });
 
-    document.onmousedown = function(){
-        var dropdownVisibility = $("div.search-dropdown-input").css("visibility");
-        if (dropdownVisibility == "visible"){
-            $("div.search-dropdown-input").css("visibility", "hidden");
-            dropdownSearch = "hidden";
-        }
-    }
 
+    /**
+     * Breadcrumb dynamic router
+     */
 
-    
+       
 })

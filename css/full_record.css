@@ -209,13 +209,13 @@ main div.container div#left-side {
     background-color: #F2F2F4;
 }
 
-main div#left-side ul {
+main div#left-side ul{
     padding-right: 30px;
     position: relative;
     top: 68px;
 }
 
-main div#left-side li {
+main div#left-side li , div#bottom-left-side li{
     color: #00021F;
     font-family: sans-serif;
     font-size: 22px;
@@ -226,7 +226,7 @@ main div#left-side li {
     padding-bottom: 30px;
 }
 
-main div.container div#right-side {
+main div.container div#right-side{
     position: absolute;
     top: 68px;
     left: 330px;
@@ -241,7 +241,8 @@ div#right-side li {
     padding-bottom: 30px;
 }
 
-main div.container div#right-side li a {
+main div.container div#right-side li a,
+div#bottom-right-side li a{
     color: #DF6C37;
     font-weight: 600;
 }
